@@ -119,13 +119,13 @@ jobs:
     - name: Upload ssr-plus-packages
       uses: actions/upload-artifact@v2
       with:
-        name: ssr-plus-packages
+        name: openwrt-x86-ssr-plus
         path: openwrt/bin/packages/i386_pentium4/helloworld
 
     - name: Upload packages
       uses: actions/upload-artifact@v2
       with:
-        name: packages
+        name: openwrt-x86-packages
         path: openwrt/bin/packages
 
     - name: Upload bin directory
